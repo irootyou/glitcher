@@ -32,15 +32,15 @@ const (
 
 // Messages map for easy management of log and print messages
 var messages = map[string]string{
-    "startSpinner":     "🌸 Let's get started, darling!",
-    "stopSpinner":      "🌺 All done, sweetie!",
-    "fetchImageError":  "❌ Oopsie! Couldn't fetch the image: %v",
-    "saveImageError":   "❌ Oh no! Couldn't save the image: %v",
-    "unsupportedFormat":"❌ Uh-oh! Unsupported image format: %v",
-    "encodingError":    "❌ Yikes! Error encoding the image: %v",
-    "glitchComplete":   "✅ Yay! Image glitching complete!",
-    "blackImageError":  "❌ Oh dear! The image is completely black. Aborting.",
-    "inputRequired":    "⚠️ Please provide an input image file path, cutie!",
+    "startSpinner":     " 🌸 Let's get started!",
+    "stopSpinner":      " 🌺 All done!",
+    "fetchImageError":  " ❌ Oopsie! Couldn't fetch the image: %v",
+    "saveImageError":   " ❌ Oh no! Couldn't save the image: %v",
+    "unsupportedFormat":" ❌ Uh-oh! Unsupported image format: %v",
+    "encodingError":    " ❌ Yikes! Error encoding the image: %v",
+    "glitchComplete":   " ✅ Yay! Image glitching complete!",
+    "blackImageError":  " ❌ Oh dear! The image is completely black. Aborting.",
+    "inputRequired":    " ⚠️  Please provide an input image file path, cutie!",
     "usage": `Usage: glitcher [flags] input_image [output_image]
 Flags:
   -glitch-intensity float  Intensity of the glitch effect (0.1-9.0) (default 5.0)
