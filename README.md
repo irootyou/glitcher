@@ -3,6 +3,9 @@ Glitcher is a re-implementation of the python image glitching tool `TotallyNotCh
 
 This is the starting point to create both the ability create videos from images with changes in glitching over time creating an animation, or taking every frame of a video and re-assembling the video with the glitched frames.
 
+The biggest failure was that I was not able to re-produce the same glitched image with both the python and go version with the same seed. I may have missed something subtle, be advised, or it could be function of different languages. 
+
+
 ## Usage
 Using the tool is very simple, as with any UI I develop, it is more fail-proof than the python version, you can provide as little as the input image path and it will fill in the rest for you, and if the file exists it will ask if you would like to overwrite it, and if you don't specify an output image path it will just use a randomly generated name prefix by `glitched-image-` and saved in the current working directory. 
 
